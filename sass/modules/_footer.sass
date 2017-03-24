@@ -1,0 +1,30 @@
+footer
+  padding: 35px 0px 0px 0px
+  +clearfix
+  @media screen and (max-width: 768px)
+    ul
+      margin-top: 40px
+      li
+        margin-left: 0
+    
+  a
+    color: $text-dark
+    &:hover
+      color: $prime-color1
+  .inner
+    padding-bottom: 25px
+    +clearfix
+  .quarter
+    &:first-child
+      figure
+        width: 60%
+        img
+          max-width: 200px
+        @media screen and (max-width: 768px)
+          width: 100%
+          
+  .bottom
+    clear: both
+    padding: 20px
+    color: $whitest
+    text-align: center

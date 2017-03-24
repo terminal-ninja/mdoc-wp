@@ -1,0 +1,133 @@
+.login
+  .hero
+    width: 100%
+    height: 380px
+    background: url('images/hero.jpg') no-repeat top center
+    background-size: cover
+    position
+    relative
+    .full
+      width: 60%
+      position: absolute
+      top: 120px
+      left: 50%
+      margin-left: -30%
+      h1
+        font-size: 2.9em
+      p
+        font-size: 1.9em
+        color: $whitest
+        text-align: center
+        line-height: 32px  
+
+  .form
+    margin-top: -175px
+    .loginform      
+      padding: 30px
+      background: $prime-color3
+      float: none
+      margin: 0px auto
+      border: 1px solid $greyish
+      @include vp('border-radius','3px')
+      +clearfix
+      .email-input
+        width: 100%
+        border: 2px solid $greyish
+        background: $whitest
+        margin-bottom: 25px
+        @include vp('border-radius','3px')
+        +clearfix
+        .icon
+          float: left
+          padding: 10px 4px 0px 10px      
+        input
+          float: left
+      .password-input
+        width: 100%
+        border: 2px solid $greyish
+        background: $whitest
+        margin-bottom: 25px        
+        @include vp('border-radius','3px')
+        +clearfix
+        .icon
+          float: left
+          padding: 10px 4px 0px 10px
+        input
+          float: left
+      input
+        width: 80%
+        padding: 10px
+        background: none
+        border: 2px solid $whitest
+        outline: none
+        @include vp('border-radius','3px')
+        &:focus
+          border: 2px solid $whitest
+          outline: none
+      .controls
+        .three-quarter
+          padding-top: 12px
+          input
+            &[type=checkbox]
+              margin-top: 1px
+              display: inline-flex
+              width: 15px
+              height: 15px
+              padding: 2px
+              -webkit-appearance: none
+              outline: 1px solid $prime-color3
+              border: 1px solid $grey3
+              @include vp('box-shadow','0px 0px 0px 1px #f0f0f0')
+              @include vp('border-radius','8px')
+              &:focus
+                padding: 0px
+                border: 2px solid $whitest 
+                outline: 1px solid $prime-color1
+                outline: none  
+                background: $prime-color1        
+                @include vp('box-shadow','0px 0px 0px 1px #b4b4b4')
+          a
+            float: right
+            text-align: right
+
+        .button
+          width: 100%
+          padding: 0px
+          button
+            width: 80%
+            float: right
+      .divider
+        figure
+          width: 100%
+          text-align: center
+          img
+            width: auto
+            margin: 0px auto
+      .social
+        color: $whitest
+        .half
+          width: 49%
+          &:nth-child(2)
+            float: right
+        .fa
+          color: $whitest
+          float: left
+          font-size: 1.6em
+          width: 15%
+        p
+          width: 85%
+          color: $whitest
+          float: left
+          text-align: left
+          margin: 0px
+        .facebook
+          background: #3b5998
+        .twitter
+          background: #00acee
+        .button
+          width: 100%
+          button
+            width: 100%      
+            padding: 16px 10px
+            @include vp('border-radius','4px')
+

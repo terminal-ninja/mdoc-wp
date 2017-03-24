@@ -1,0 +1,104 @@
+.contact
+  .hero
+    width: 100%
+    height: 380px
+    background: url('images/hero.jpg') no-repeat top center
+    background-size: cover
+    position
+    relative
+    .full
+      width: 60%
+      position: absolute
+      top: 120px
+      left: 50%
+      margin-left: -30%
+      h1
+        font-size: 2.9em
+      p
+        font-size: 1.9em
+        color: $whitest
+        text-align: center
+        line-height: 32px  
+
+  .form
+    margin-top: -175px
+    .contactform      
+      padding: 30px
+      background: $prime-color3
+      float: none
+      margin: 0px auto
+      border: 1px solid $greyish
+      @include vp('border-radius','3px')
+      +clearfix
+      input, textarea
+        width: 100%
+        margin-bottom: 25px
+        padding: 10px
+        background: $whitest
+        border: 2px solid $greyish
+        outline: none
+        padding: 22px 14px
+        font-size: 1.1em
+        @include vp('border-radius','3px')
+        &:focus
+          border: 2px solid $prime-color1
+          outline: none
+      .btn-default
+        width: auto
+        float: right
+        background: $prime-color1
+        color: $white
+        border-radius: 4px
+        border: 0
+        font-size: 1.1em
+        font-weight: initial
+        padding: 9px 32px
+        &:hover
+          background: $prime-color1-lightened
+          color: $whitest
+      textarea
+        resize: none
+      .button
+        width: 100%
+        button
+          float: right
+    .details
+      float: none
+      margin: 20px auto     
+      padding: 0px 20px 
+      .email
+        padding-left: 42px
+        position: relative
+        &:before
+          content: url(images/contact/email.png)
+          width: 38px
+          height: 42px
+          position: absolute
+          top: 0px
+          left: 0px
+      .phone
+        padding-left: 42px
+        position: relative        
+        &:before
+          content: url(images/contact/phone.png)
+          width: 38px
+          height: 42px
+          position: absolute
+          top: 0px
+          left: 0px          
+      .address
+        padding-left: 42px
+        position: relative        
+        &:before
+          content: url(images/contact/address.png)
+          width: 38px
+          height: 42px
+          position: absolute
+          top: 0px
+          left: 0px          
+
+  .map
+    padding: 0px
+    iframe
+      width: 100%
+      height: 320px
