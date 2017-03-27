@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main">
+    <section class="hero"></section>
 		<!-- section -->
 		<section>
       <div class="inner">
@@ -12,7 +12,7 @@
       </div>
 		</section>
 		<!-- /section -->
-	</main>
+
 
 
 <?php get_footer(); ?>

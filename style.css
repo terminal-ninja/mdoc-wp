@@ -8573,61 +8573,61 @@ footer {
   margin-top: 245px;
   color: white; }
 
-.single .hero {
+.single .hero, .search .hero {
   height: 400px !important; }
 
-.blog .hero, .page-template-default .hero, .single .hero {
+.blog .hero, .page-template-default .hero, .single .hero, .search .hero {
   width: 100%;
   height: 778px;
   background: url("images/hero.jpg") no-repeat top center;
   background-size: cover; }
-  .blog .hero .full, .page-template-default .hero .full, .single .hero .full {
+  .blog .hero .full, .page-template-default .hero .full, .single .hero .full, .search .hero .full {
     width: 60%;
     position: absolute;
     top: 245px;
     left: 50%;
     margin-left: -30%; }
-    .blog .hero .full h1, .page-template-default .hero .full h1, .single .hero .full h1 {
+    .blog .hero .full h1, .page-template-default .hero .full h1, .single .hero .full h1, .search .hero .full h1 {
       font-size: 2.9em; }
-    .blog .hero .full p, .page-template-default .hero .full p, .single .hero .full p {
+    .blog .hero .full p, .page-template-default .hero .full p, .single .hero .full p, .search .hero .full p {
       font-size: 1.9em;
       color: white;
       text-align: center;
       line-height: 32px; }
-.blog .posts h5, .page-template-default .posts h5, .single .posts h5 {
+.blog .posts h5, .page-template-default .posts h5, .single .posts h5, .search .posts h5 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0em; }
-.blog .posts .three-quarter, .page-template-default .posts .three-quarter, .single .posts .three-quarter {
+.blog .posts .three-quarter, .page-template-default .posts .three-quarter, .single .posts .three-quarter, .search .posts .three-quarter {
   float: none;
   margin: 0px auto;
   padding: 40px 0px 40px 0px;
   border-bottom: 1px solid #ddd; }
-  .blog .posts .three-quarter::after, .page-template-default .posts .three-quarter::after, .single .posts .three-quarter::after {
+  .blog .posts .three-quarter::after, .page-template-default .posts .three-quarter::after, .single .posts .three-quarter::after, .search .posts .three-quarter::after {
     clear: both;
     content: "";
     display: table; }
-  .blog .posts .three-quarter figure, .page-template-default .posts .three-quarter figure, .single .posts .three-quarter figure {
+  .blog .posts .three-quarter figure, .page-template-default .posts .three-quarter figure, .single .posts .three-quarter figure, .search .posts .three-quarter figure {
     height: 300px; }
-  .blog .posts .three-quarter article h4, .page-template-default .posts .three-quarter article h4, .single .posts .three-quarter article h4 {
+  .blog .posts .three-quarter article h4, .page-template-default .posts .three-quarter article h4, .single .posts .three-quarter article h4, .search .posts .three-quarter article h4 {
     text-transform: uppercase;
     margin-bottom: 0.2em;
     margin-top: 0em;
     color: #363636; }
-  .blog .posts .three-quarter article p, .page-template-default .posts .three-quarter article p, .single .posts .three-quarter article p {
+  .blog .posts .three-quarter article p, .page-template-default .posts .three-quarter article p, .single .posts .three-quarter article p, .search .posts .three-quarter article p {
     color: #363636; }
-  .blog .posts .three-quarter article .date-time-author, .page-template-default .posts .three-quarter article .date-time-author, .single .posts .three-quarter article .date-time-author {
+  .blog .posts .three-quarter article .date-time-author, .page-template-default .posts .three-quarter article .date-time-author, .single .posts .three-quarter article .date-time-author, .search .posts .three-quarter article .date-time-author {
     margin-top: 0em;
     text-transform: uppercase;
     font-size: 0.9em;
     color: #424242; }
-    .blog .posts .three-quarter article .date-time-author span, .page-template-default .posts .three-quarter article .date-time-author span, .single .posts .three-quarter article .date-time-author span {
+    .blog .posts .three-quarter article .date-time-author span, .page-template-default .posts .three-quarter article .date-time-author span, .single .posts .three-quarter article .date-time-author span, .search .posts .three-quarter article .date-time-author span {
       text-transform: initial;
       color: #47b462;
       font-style: italic; }
-  .blog .posts .three-quarter article p, .page-template-default .posts .three-quarter article p, .single .posts .three-quarter article p {
+  .blog .posts .three-quarter article p, .page-template-default .posts .three-quarter article p, .single .posts .three-quarter article p, .search .posts .three-quarter article p {
     font-size: 1.2em; }
-  .blog .posts .three-quarter article .readmore, .page-template-default .posts .three-quarter article .readmore, .single .posts .three-quarter article .readmore {
+  .blog .posts .three-quarter article .readmore, .page-template-default .posts .three-quarter article .readmore, .single .posts .three-quarter article .readmore, .search .posts .three-quarter article .readmore {
     text-transform: uppercase;
     font-size: 0.9em;
     text-decoration: underline; }

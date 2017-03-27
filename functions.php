@@ -681,17 +681,20 @@ function site_header ()
       <div class="top-nav">
           <div class="inner">
               <a href="<?php echo get_site_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="logo" alt=""></a>
-              
+                
                   <?php html5blank_nav('header-menu'); ?>
               
               <div class="actionbar">
                   <?php if (empty ($_SESSION ['login'])) { ?>
                   <a href="<?php echo site_url('register'); ?>">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo site_url('client'); ?>">Login</a>
                   <?php } else echo "<a href='mdoc/client'>Client Portal</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='<?php echo site_url('client'); ?>?pt_page=logout'>Logout</a>" ?>
-                  <!-- <div class="search">
-                      <input type="text" placeholder="Search"/>
-                      <button><i class="fa fa-search"></i></button>
-                  </div> -->
+                  
+                  <div class="search">
+                     <form class="" method="get" action="<?php echo home_url(); ?>" role="search">
+                          <input class="search-input" type="search" name="s" placeholder="<?php _e( 'Search', 'html5blank' ); ?>">
+                          <button class="search-submit" type="submit" role="button"><?php _e( '', 'html5blank' ); ?><i class="fa fa-search"></i></button>
+                     </form>
+                  </div>
               </div>
           </div>
       </div>
