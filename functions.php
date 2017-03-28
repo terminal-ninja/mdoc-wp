@@ -687,7 +687,7 @@ function site_header ()
               <div class="actionbar">
                   <?php if (empty ($_SESSION ['login'])) { ?>
                   <a href="<?php echo site_url('register'); ?>">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo site_url('client'); ?>">Login</a>
-                  <?php } else echo "<a href='mdoc/client'>Client Portal</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='<?php echo site_url('client'); ?>?pt_page=logout'>Logout</a>" ?>
+                  <?php } else echo "<a href='" . site_url('client') . "'>Client Portal</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='" . site_url('client') . "/?pt_page=logout'>Logout</a>" ?>
                   
                   <div class="search">
                      <form class="" method="get" action="<?php echo home_url(); ?>" role="search">
@@ -789,4 +789,8 @@ function mc_sign_up() {
         <!--End mc_embed_signup-->
     <?php
 }
+
+
+
+
 ?>
