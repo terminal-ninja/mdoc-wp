@@ -7841,8 +7841,6 @@ footer {
           outline: 0; }
   .navigation .inner .sub-item {
     padding: 18px 10px; }
-  .navigation .inner .menu-item-222, .navigation .inner .menu-item-94, .navigation .inner .menu-item-95 {
-    display: none; }
   .navigation .current-menu-item-ancestor a {
     font-weight: 700 !important;
     background-color: white !important;
@@ -7891,6 +7889,8 @@ footer {
     margin: 26px 0 0 40px;
     padding: 0;
     list-style-type: none; }
+    .navigation ul.slimmenu .menu-item-222, .navigation ul.slimmenu .menu-item-94, .navigation ul.slimmenu .menu-item-95 {
+      display: none; }
     .navigation ul.slimmenu:before, .navigation ul.slimmenu:after {
       content: "";
       display: table; }
